@@ -1,0 +1,160 @@
+
+
+
+/*.nav-icons .ui-btn .ui-btn-inner { padding-top: 40px !important; }*/
+/*.nav-icons .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }*/
+.ui-icon-prensa:after {
+    background-image: url("../images/prensa.png");
+    background-size: 18px 18px;
+
+}
+.ui-icon-radio:after {
+    background-image: url("../images/radio.png");
+    background-size: 18px 18px;
+}
+.ui-icon-tv:after {
+    background-image: url("../images/tv.png");
+    background-size: 18px 18px;
+}
+.ui-icon-digital:after {
+    background-image: url("../images/sintesis.png");
+    background-size: 18px 18px;
+}
+
+.ui-icon-portadas:after {
+    background-image: url("../images/portadas.png");
+    background-size: 18px 18px;
+}
+
+@media screen and ( max-height: 20em) {
+    .imagen-grande {
+       max-width: 60% !important;
+      
+    }
+}
+
+@media screen and ( max-height: 40em) {
+    .imagen-grande {
+       max-width: 80%;
+      
+    }
+}
+
+@media screen and ( min-height: 40em) {
+    .imagen-grande {
+       max-width: 95%;
+      
+    }
+}
+
+@media screen and (max-width: 50em) {
+    .lista-prensa li img{
+        display: none;
+    }
+  
+    .lista-radio li a,
+    .lista-tv li a,
+    .lista-prensa li a
+    {
+        min-height: 0 !important;
+        padding: 2px 28px 2px 10px !important;
+    }
+    
+    
+}
+
+@media screen and (min-width: 50em) {
+    .lista-prensa li img{
+        max-width: 8em !important;
+        max-height: 8em !important;
+        top: 16% !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+
+    }
+
+
+    .lista-prensa li a{
+        padding-left: 8.5em !important;
+    }
+   
+}
+
+@media screen and (min-width: 70em) {
+    .lista-prensa li a img{
+        max-width: 9em !important;
+        max-height: 9em !important;
+        top: 10% !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+
+    }
+.lista-prensa li a{
+        min-height: 5.5em !important;
+    }
+
+    .lista-prensa li a{
+        padding-left: 9.5em !important;
+    }
+}
+/* 320px (20em x 16px) */
+/* 480px (30em x 16px) */
+/* 640px (40em x 16px) */
+/* 800px (50em x 16px) */
+/* 960px (60em x 16px) */
+/* 1,120px (70em x 16px) */
+
+
+.lista-radio li a h3,
+    .lista-tv li a h3,
+    .lista-prensa li a h3,
+    .lista-radio li a p,
+    .lista-tv li a p,
+    .lista-prensa li a p
+    {
+        
+        white-space: normal !important;
+        /*display:none;*/
+    }
+
+
+.lista-radio .ui-li-aside,
+.lista-tv .ui-li-aside
+{
+    position: static !important;
+}
+
+.field-no-border{
+    border-width: 0 !important;
+}
+
+.portada-thumb {
+    margin: 10px 15px 10px 15px;
+    border-width: 1px !important;
+    border-style: solid;
+    border-color: #dddddd;
+    width: 150px;
+    height: 150px;
+}
+
+.periodico-icon {
+    margin: 10px 25px 10px 25px;
+}
+
+
+.ui-collapsible-heading-toggle{
+    color: #ffffff !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    padding: .5em 1em .5em 2.5em;
+}
+.ui-collapsible-heading{
+    margin: 0 0 0 0 !important;
+}
+
+.first-divider h2{
+    margin: .45em 0 0 0  !important;
+}
+
